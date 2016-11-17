@@ -1,0 +1,8 @@
+carlos david valer pacompia
+123
+- comunicacion = 14
+- estructura discreta = 15
+- introduccion a la vida universitaria = 16
+- matematica I = 17
+- metodologia del estudio = 15
+- programacion de video juegos = 16
