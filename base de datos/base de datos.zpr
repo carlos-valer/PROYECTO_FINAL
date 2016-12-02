@@ -44,7 +44,7 @@ cursor=74:34
 open=true
 [source]
 path=director.cpp
-cursor=67:8
+cursor=75:1
 open=true
 [header]
 path=persona.h

@@ -60,20 +60,20 @@ void Director::agregar_alumno()
 	getline(cin, _clave);
 	cout << "CODIGO GENERADO : ";
 	if(memento.cargar_codigos().empty()){
-		_codigo = 101/*100 + rand() % (201-100)*/;
+		100 + rand() % (201-100);
 	}
 	else{
-		_codigo = 101 /*+ rand() % (201-100)*/;
+		_codigo = 101 + rand() % (201-100);
 		int i=0;
 		while(i < memento.cargar_codigos().size()){
 			if(memento.cargar_codigos()[i]==_codigo){
-				_codigo++ /*=*/ /*100 + rand() % (201-100)*/;
+				_codigo++ = 100 + rand() % (201-100);
 				i=0;
 			}
 			else{i++;}
 		}
 	}
-
+	
 	cout << _codigo;
 	vector <string> cursos;
 	cursos.push_back("COMUNICACION");
